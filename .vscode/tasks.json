@@ -291,5 +291,42 @@
             ],
             "group": "build"
         },
+        {
+            "type": "shell",
+            "label": "cargo run day09-1",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "cwd": "day09-1",
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "cargo run day09-2 --release",
+            "command": "cargo",
+            "args": [
+                "run",
+                "--release"
+            ],
+            "options": {
+                "cwd": "day09-2",
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        },
     ]
 }
