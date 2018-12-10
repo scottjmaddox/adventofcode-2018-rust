@@ -1,0 +1,7 @@
+[package]
+name = "day04-1"
+version = "0.1.0"
+authors = ["Scott J Maddox"]
+
+[dependencies]
+regex = "1"

@@ -111,5 +111,41 @@
             ],
             "group": "build"
         },
+        {
+            "type": "shell",
+            "label": "cargo run day04-1",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "cwd": "day04-1",
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "cargo run day04-2",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "cwd": "day04-2",
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        },
     ]
 }
