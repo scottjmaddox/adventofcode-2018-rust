@@ -311,14 +311,31 @@
         },
         {
             "type": "shell",
-            "label": "cargo run day09-2 --release",
+            "label": "cargo run day09-2",
             "command": "cargo",
             "args": [
-                "run",
-                "--release"
+                "run"
             ],
             "options": {
                 "cwd": "day09-2",
+                "env": {
+                    "RUST_BACKTRACE": "1"
+                }
+            },
+            "problemMatcher": [
+                "$rustc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "cargo run day10-1",
+            "command": "cargo",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "cwd": "day10-1",
                 "env": {
                     "RUST_BACKTRACE": "1"
                 }
