@@ -106,6 +106,22 @@ name = "day10-1"
 version = "0.1.0"
 
 [[package]]
+name = "day11-1"
+version = "0.1.0"
+
+[[package]]
+name = "day11-2"
+version = "0.1.0"
+
+[[package]]
+name = "day12-1"
+version = "0.1.0"
+
+[[package]]
+name = "day12-2"
+version = "0.1.0"
+
+[[package]]
 name = "lazy_static"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
